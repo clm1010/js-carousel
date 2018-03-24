@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS旋转木马</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body class="">
+  <div class="J_Carousel poster-main" data-setting='{
+    "width":800,
+    "height":270,
+    "posterWidth":640,
+    "posterHeight":270,
+    "scale":0.9,
+    "speed":500,
+    "verticalAlign":"middle"
+  }'>
+    <!-- 上一个 -->
+    <div class="poster-btn poster-prev-btn"></div>
+
+    <ul class="poster-list">
+      <li class="poster-item"><a href=""><img src="img/1.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="img/2.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="img/3.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="img/4.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="img/5.jpg" alt=""></a></li>
+      <li class="poster-item"><a href=""><img src="img/6.jpg" alt=""></a></li>
+    </ul>
+
+    <!-- 下一个 -->
+    <div class="poster-btn poster-next-btn"></div>
+  </div>
+  <div class="J_Carousel" data-setting='{
+    "width":4000,
+    "height":370,
+    "posterWidth":840,
+    "posterHeight":270,
+    "scale":1,
+    "speed":700,
+    "verticalAlign":"middle"
+  }'>
+    123
+  </div>
+  <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="js/carousel.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(function() {
+      // var carousel = new Carousel($(".J_Carousel").eq(0));
+      Carousel.init($(".J_Carousel"));
+    });
+  </script>
+</body>
+
+</html>
