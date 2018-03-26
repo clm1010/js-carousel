@@ -54,6 +54,7 @@ ul {
   background-position:center center;
   cursor:pointer;
   background-color: blue;
+  opacity:0.8;
 }
 
 .poster-main .poster-prev-btn {
