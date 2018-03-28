@@ -19,11 +19,9 @@ ul {
 .poster-main {
   width: 800px;
   height: 270px;
-  margin: 0 auto;
+  margin: 15px auto;
   overflow: hidden;
-  /* background-color: red; */
   position: relative;
-  top: 30%;
 }
 
 .poster-main .poster-list {
@@ -53,7 +51,6 @@ ul {
   background-repeat:no-repeat;
   background-position:center center;
   cursor:pointer;
-  background-color: blue;
   opacity:0.8;
 }
 
